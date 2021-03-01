@@ -1,0 +1,19 @@
+package ec.edu.itq.programacion2.Hotel2;
+
+import ec.edu.itq.programacion2.Hotel2.CaracteristicasHabitacion;
+import java.io.Serializable;
+import javax.annotation.Generated;
+import javax.persistence.metamodel.SingularAttribute;
+import javax.persistence.metamodel.StaticMetamodel;
+
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2021-02-28T22:11:02")
+@StaticMetamodel(Caracteristica.class)
+public class Caracteristica_ { 
+
+    public static volatile SingularAttribute<Caracteristica, String> descripcion;
+    public static volatile SingularAttribute<Caracteristica, CaracteristicasHabitacion> caracteristicasHabitacion;
+    public static volatile SingularAttribute<Caracteristica, Integer> id;
+    public static volatile SingularAttribute<Caracteristica, Integer> cantidad;
+    public static volatile SingularAttribute<Caracteristica, Serializable> nombre;
+
+}
